@@ -1,0 +1,4 @@
+Options
+RewriteEngine On
+ 
+RewriteRule ^database/(.*)$ ./Database.php?username=$1
